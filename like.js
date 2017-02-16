@@ -3,6 +3,7 @@
 const _ = require('underscore');
 const fs = require('fs');
 const logger = require('./logger');
+const settings = require('./settings');
 const request = require('request');
 
 function post() {
