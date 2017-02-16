@@ -1,0 +1,13 @@
+{
+  "count": 20000,
+  "baseUrl": "http://music.163.com/weapi/",
+  "headers": {
+    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "Referer": "http://music.163.com/"
+  },
+  "form": {
+    "username": "",
+    "password": "",
+    "rememberLogin": "true"
+  }
+}

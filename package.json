@@ -1,0 +1,19 @@
+{
+  "name": "bdjl",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async": "^2.1.4",
+    "big-integer": "^1.6.17",
+    "bluebird": "^3.4.7",
+    "log4js": "^1.1.0",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.13.1",
+    "eslint-plugin-react": "^6.9.0"
+  }
+}
