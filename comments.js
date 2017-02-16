@@ -14,7 +14,7 @@ const request = require('request');
  */
 function matchSong(songId) {
   const url = `${settings.baseUrl}v1/resource/comments/R_SO_4_${songId}/?csrf_token=`;
-  const text = JSON.stringify({'username': '', 'password': '', 'rememberLogin': 'true'});
+  const text = JSON.stringify(settings.form);
   const form = crypto.getData(text);
   const options = {url: url, headers: settings.headers, form: form};
 
@@ -69,6 +69,6 @@ var queue = async.queue(function(songId, callback) {
 }, 50);
 
 // 460039019
-for (var i = 300001; i <= 500000; ++ i) {
+for (var i = 347231; i <= 500000; ++ i) {
   queue.push(i);
 }
